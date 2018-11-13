@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastroClienteComponent
+    CadastroClienteComponent,
+    BrowserAnimationsModule
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
